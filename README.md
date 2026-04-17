@@ -13,28 +13,15 @@ Magnocellular oxytocin neurons of the hypothalamus secrete oxytocin into the blo
 ## Repository Structure
 
 ```
+├── README.md
 ├── HypoModPython_CMML3/
-│   ├── HypoModPy/
-│      ├── __init__.py
-│      ├── hypobase.py
-│      ├── hypodat.py
-│      ├── hypodata.py
-│      ├── hypograph.py
-│      ├── hypogrid.py
-│      ├── hypomain.py
-│      ├── hypomods.py
-│      ├── hypoparams.py
-│      ├── hypoprint.py
-│      ├── hyposcale.py
-│      ├── hypospikes.py
-│      └── hypotools.py
-├── SpikeModPython.py             # GUI entry point
-├── generate_figures.py           # Main analysis script
-├── generate_supp_figure.py       # Supplementary figure script
-├── spikemod.py                   # HypoMod GUI extension – DAP model
-├── spikepanels.py                # HypoMod GUI extension – DAP parameter panels
-├── oxydata dap cells.xlsx        # Electrophysiology recordings (required by all scripts)
-└── README.md
+    ├── HypoModPy/
+    ├── data/
+    ├── SpikeModPython.py             # GUI entry point
+    ├── generate_figures.py           # Main analysis script
+    ├── generate_supp_figure.py       # Supplementary figure script
+    ├── spikemod.py                   # HypoMod GUI extension – DAP model
+    └── spikepanels.py                # HypoMod GUI extension – DAP parameter panels
 ```
 
 ---
